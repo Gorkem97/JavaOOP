@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run JavaOOP",
+            "type": "shell",
+            "command": "mvn -q compile exec:java",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "clear": true,
+                "focus": false,
+                "showReuseMessage": false
+            },
+            "problemMatcher": []
+        }
+    ]
+}
+
